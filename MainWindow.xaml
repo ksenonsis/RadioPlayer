@@ -1,7 +1,7 @@
 ﻿<Window x:Class="RadioPlayer.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Radio Player" Height="200" Width="400">
+        Title="Radioо Player" Height="200" Width="400">
 
 
     <Grid>
