@@ -12,6 +12,8 @@ namespace RadioPlayer
         private WaveOutEvent outputDevice;
         private Mp3FrameReader mp3Reader;
 
+        // Save last URL to file
+
         public MainWindow()
         {
             InitializeComponent();
@@ -65,8 +67,8 @@ namespace RadioPlayer
             mp3Reader?.Dispose();
         }
     }
-
-    // 🔥 вспомогательные классы для стрима
+    
+    //  вспомогательные классы для стрима
     public class Mp3FrameReader : IDisposable
     {
         private Stream stream;
